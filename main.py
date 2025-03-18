@@ -113,7 +113,7 @@ def decode_json_with_bom(response_text):
 
 def check_referrer():
     referrer = request.headers.get('Referer', '')
-    return referrer.startswith('https://consult-center3.onrender.com')
+    return referrer.startswith('https://search-center.onrender.com')
 
 def check_user_agent():
     user_agent = request.headers.get('User-Agent', '')
